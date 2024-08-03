@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-     <section className='py-4 relative'>
-     <div className='bg-[#0C0C0C]  sm:none lg:flex mt-7  absolute lg:right-36 lg:left-36 md:right-3  md:left-16 justify-between px-16 rounded-3xl  z-10 shadow-gray-700 lg:w-[1000px]'>
+     <section className='py-4'>
+     <div className='bg-[#0C0C0C]  sm:none lg:flex   absolute lg:right-36 lg:left-36 md:right-3  md:left-16 justify-between px-16 rounded-3xl  z-10 shadow-gray-700 xl:w-[1000px] md:w[400px]'>
        <div className='py-5 px-5'>
         <h1 className='text-white mb-11 ms-16 text-2xl font-semibold'>ABOUT</h1>
         <img src="/2.png" alt="about-pic"  className='w-[250px] h-[250x] rounded-full'/>

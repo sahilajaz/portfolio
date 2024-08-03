@@ -12,8 +12,8 @@ const ProfileSection = () => {
     }
 
   return (
-    <section className='py-5 mt-3 w-full px-2'>
-      <div className='text-white flex sm:flex-row flex-col justify-center items-center px-11'>
+    <section className='py-5 mt-20 w-full px-2'>
+      <div className='text-white flex sm:flex-row flex-col justify-center items-center px-11 mt-4'>
         <div className='flex-1 max-w-lg'>
         <div className='lg:hidden flex flex-1  justify-center mb-10'>
           <img src="/1.png" alt="pic" className='h-[250px] w-[250px] rounded-full object-cover' />
