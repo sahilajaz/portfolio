@@ -29,7 +29,7 @@ const projectArray = [
 
 const ProjectSection = () => {
   return (
-    <section className='py-10'>
+    <section className='py-10' id='projects'>
       <h1 className='text-white text-center text-3xl font-bold mb-6'>Projects</h1>
       <div className="project-card grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-3 gap-6 px-8">
         {
