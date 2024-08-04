@@ -45,6 +45,21 @@ const logoArray = [
     id: 9,
     name: 'spring boot',
     path: '/boot.jpeg'
+  },
+  {
+    id: 10,
+    name: 'git',
+    path: '/git.jpeg'
+  },
+  {
+    id: 11,
+    name: 'mysql',
+    path: '/sql.jpeg'
+  },
+  {
+    id: 12,
+    name: 'git hub',
+    path: '/hub.jpeg'
   }
 ];
 
