@@ -2,6 +2,7 @@ import About from "./Components/About"
 import Navbar from "./Components/Navbar"
 import ProfileSection from "./Components/ProfileSection"
 import ExperiencSection from "./Components/ExperiencSection"
+import ProjectSection from "./Components/ProjectSection"
 
 const App = () => {
   
@@ -12,6 +13,7 @@ const App = () => {
      <ProfileSection/>
      <About/>
      <ExperiencSection/>
+     <ProjectSection/>
     </main>
   )
 }

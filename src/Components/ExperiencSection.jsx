@@ -60,6 +60,16 @@ const logoArray = [
     id: 12,
     name: 'git hub',
     path: '/hub.jpeg'
+  },
+  {
+    id: 13,
+    name: 'kubernates',
+    path: '/kub.jpg'
+  },
+  {
+    id: 14,
+    name: 'docker',
+    path: '/dock.png'
   }
 ];
 
