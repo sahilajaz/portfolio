@@ -70,6 +70,11 @@ const logoArray = [
     id: 14,
     name: 'docker',
     path: '/dock.png'
+  },
+  {
+    id: 15,
+    name: 'TypeScript',
+    path: '/ts.jpg'
   }
 ];
 
