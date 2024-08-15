@@ -8,7 +8,7 @@ const ContactSection = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_m3zseho', 'template_hilh548', form.current, 'RypkQ_OmxWolgrPh1')
+      .sendForm('service_m3zseho', 'template_hilh548', form.current, 'Up-6Pbfln3vl0rnPc')
       .then(
         () => {
           console.log('SUCCESS!');
