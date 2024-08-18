@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full p-5 fixed top-0 left-0 bg-[#19376D] z-50'>
-      <div className='flex justify-between items-center px-10 sm:px-6 py-3 w-auto sm:w-full'>
+      <div className='flex justify-between items-center px-10 sm:px-6 py-3'>
         <h2 className='text-white text-3xl font-bold'>Portfolio</h2>
         <ul className='hidden md:flex font-bold text-[1.2rem] cursor-pointer'>
           <li className='text-white px-3 hover:text-gray-500' onClick={() => scrollToSection('about')}>About</li>

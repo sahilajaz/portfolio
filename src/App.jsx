@@ -10,8 +10,8 @@ const App = () => {
   
 
   return (
-    <div className="w-[147%] sm:w-[100%]">
-      <main className="bg-gradient-to-l from-gray-900/90  to-[#19376D]">
+    <div >
+      <main className="bg-gradient-to-l from-gray-900/90  to-[#19376D] ">
      <Navbar/>
      <ProfileSection/>
      <About/>

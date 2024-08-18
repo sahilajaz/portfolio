@@ -24,6 +24,22 @@ const projectArray = [
     demo: "https://hamletdubai.com/",
     code: "https://github.com/abhaywani114/hamletdubai",
     description: "A multi page website using react and tailwind CSS."
+  },
+  {
+    id: 4,
+    name: "Meme Generator",
+    pic: "/meme.png",
+    demo: "https://sahilajaz.github.io/memeGenerator/",
+    code: "https://github.com/sahilajaz/memeGenerator",
+    description: "A meme generator using Reactjs , HTML and CSS."
+  },
+  {
+    id: 5,
+    name: "Tenzie Game",
+    pic: "/tenzie.png",
+    demo: "https://sahilajaz.github.io/tenzie/",
+    code: "https://github.com/sahilajaz/tenzie",
+    description: "A tenzie game using Reactjs , HTML and CSS."
   }
 ];
 
