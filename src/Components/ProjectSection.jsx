@@ -40,6 +40,14 @@ const projectArray = [
     demo: "https://sahilajaz.github.io/tenzie/",
     code: "https://github.com/sahilajaz/tenzie",
     description: "A tenzie game using Reactjs , HTML and CSS."
+  },
+  {
+    id: 6,
+    name: "Movies Review",
+    pic: "/movieweb.png",
+    demo: "#",
+    code: "https://github.com/sahilajaz/movieweb-fullstack",
+    description: "A full stack web application using Reactjs and Spring boot."
   }
 ];
 

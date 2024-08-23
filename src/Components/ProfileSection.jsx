@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 const ProfileSection = () => {
 
     const ProfileSection = () => {
-        fetch("/resume.pdf")
+        fetch("/Sahil.pdf")
         .then(res => res.blob())
         .then(blob => {
             saveAs(blob , "resume.pdf")
