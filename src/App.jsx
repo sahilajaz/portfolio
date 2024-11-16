@@ -10,7 +10,7 @@ const App = () => {
   
 
   return (
-    <div >
+    <>
       <main className="bg-gradient-to-l from-gray-900/90  to-[#19376D] ">
      <Navbar/>
      <ProfileSection/>
@@ -20,7 +20,7 @@ const App = () => {
      <ContactSection/>
     </main>
     <Footer/>
-    </div>
+    </>
   )
 }
 

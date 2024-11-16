@@ -82,13 +82,13 @@ const ExperienceSection = () => {
   return (
     <section className='lg:mt-96 lg:py-20' id='skills'>
       <div className='mt-10 px-4 sm:px-6 md:px-12 lg:px-44'>
-        <h1 className='text-white text-center mb-10 font-extrabold text-3xl'>Skills</h1>
+        <h1 className='text-white text-center mb-10 font-extrabold text-2xl sm:text-3xl'>Skills</h1>
         <div className='grid grid-cols-2 sm:grid-cols-3  gap-4 md:gap-8 lg:gap-16 justify-items-center cursor-pointer'>
           {
             logoArray.map((item) => (
               <div key={item.id} className='flex flex-col items-center hover:animate-bounce'>
-                <div className='w-[110px] h-[110px] rounded-full bg-[#19376D]/95 relative outline-none flex items-center justify-center'>
-                  <img src={item.path} alt={item.name} className='w-[50px] h-[50px]' />
+                <div className='w-[90px] sm:w-[110px] h-[110px] rounded-full bg-[#19376D]/95 relative outline-none flex items-center justify-center'>
+                  <img src={item.path} alt={item.name} className='sm:w-[50px] h-[50px]' />
                 </div>
                 <p className='text-white mt-2 capitalize font-bold'>{item.name}</p>
               </div>
