@@ -59,7 +59,7 @@ const ProjectSection = () => {
         {
           projectArray.map((item) => (
             <div className='flex flex-col justify-center sm:w-[400px] items-center gap-5 bg-gradient-to-b from-[#576CBC]/80 to-[#132A53]/90 py-7' key={item.id}>
-              <img src={item.pic} alt={item.name} className="sm:w-[298px] h-[200px] border rounded-lg" />
+              <img src={item.pic} alt={item.name} className="w-[230px] sm:w-[298px] h-[200px] border rounded-lg" />
               <p className='text-white font-thin px-5 sm:px-16 text-justify'>{item.description}</p>
               <div className="btn-card flex gap-4 mt-5">
                 <a href={item.demo} target="_blank">
